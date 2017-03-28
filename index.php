@@ -48,7 +48,7 @@ switch ($action) {
         
         // get the amount of time between the current date and the due date
         // and format the due date message
-        $due_date_message = 'not implemented yet';
+        $due_date_message = echo 'This invoice is due in:' . $due_date_s = $default_date->format('M. j, Y');;
 
         break;
 }
