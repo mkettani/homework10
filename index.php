@@ -20,7 +20,7 @@ switch ($action) {
         $invoice_date_s = $default_date->format('n/j/Y');
 
         // set default due date 2 months after current date
-        $interval = new DateInterval('P8M');
+        $interval = new DateInterval('P2M');
         $default_date = new DateTime();
         $default_date->add($interval);
         $due_date_s = $default_date->format('n/j/Y');
