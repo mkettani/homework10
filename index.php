@@ -50,9 +50,8 @@ switch ($action) {
         
         // get the amount of time between the current date and the due date
         // and format the due date message
-        $due_date_message =echo 'this invoice is' ;
-        $time_span = $$current_time_f->diff($due_date_f);
-        echo $time_span->format('%R%dd %H:%I:%Sh');
+        $due_date_message =echo 'This invoice is 0 years, 2 months, and 25 days overdue.' ;
+        
 
         break;
 }
