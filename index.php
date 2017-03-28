@@ -40,7 +40,7 @@ switch ($action) {
 
         // format both dates
         $invoice_date_f = date ('l, F d, Y');
-        $due_date_f = 'not implemented yet'; 
+        $due_date_f = date ('l, F d, Y'); ; 
         
         // get the current date and time and format it
         $current_date_f = date ('F d, Y');
