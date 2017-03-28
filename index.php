@@ -51,8 +51,8 @@ switch ($action) {
         // get the amount of time between the current date and the due date
         // and format the due date message
         $due_date_message =echo 'this invoice is' ;
-        $time_span = $$invoice_date_f->diff($due_date_f);
-        echo 'this invoice is' . $time_span->format('M. j, y \a\t g:i a');
+        $time_span = $invoice_date_f->diff($due_date_f);
+        echo $time_span->format('M. j, y \a\t g:i a');
 
         break;
 }
