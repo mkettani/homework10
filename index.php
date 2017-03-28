@@ -42,7 +42,7 @@ switch ($action) {
 
         // format both dates
         $invoice_date_f = date ( 'F d, Y', strtotime($invoice_date_s));
-        $due_date_f = date ( 'F d, Y'); 
+        $due_date_f = date ( 'F d, Y', strtotime($due_date_s));
         
         // get the current date and time and format it
         $current_date_f = date ('F d, Y');
