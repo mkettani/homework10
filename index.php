@@ -50,7 +50,8 @@ switch ($action) {
         
         // get the amount of time between the current date and the due date
         // and format the due date message
-        $due_date_message =echo 'This invoice is 0 years, 2 months, and 25 days overdue.' ;
+        $due_date_message = 'This invoice is 0 years, 2 months, and 25 days overdue.' ;
+        echo $due_date_message ;
         
 
         break;
