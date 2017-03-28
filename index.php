@@ -44,7 +44,7 @@ switch ($action) {
         
         // get the current date and time and format it
         $current_date_f = 'not implemented yet';
-        $current_time_f = 'not implemented yet';
+        $current_time_f = date("h:i:sa");
         
         // get the amount of time between the current date and the due date
         // and format the due date message
