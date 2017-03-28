@@ -39,7 +39,7 @@ switch ($action) {
         // make sure the due date is after the invoice date
 
         // format both dates
-        $invoice_date_f = 'not implemented yet';
+        $invoice_date_f = date ('l, F d, Y');
         $due_date_f = 'not implemented yet'; 
         
         // get the current date and time and format it
