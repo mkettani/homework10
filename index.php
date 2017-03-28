@@ -50,7 +50,7 @@ switch ($action) {
         
         // get the amount of time between the current date and the due date
         // and format the due date message
-        $due_date_message = 'not implemented yet';
+        $due_date_message =date_dif($invoice_date_f,$due_date_f);
 
         break;
 }
