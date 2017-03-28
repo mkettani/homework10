@@ -41,7 +41,7 @@ switch ($action) {
         // make sure the due date is after the invoice date
 
         // format both dates
-        $invoice_date_f = date ('Y-m-d', strtotime($invoice_date_s));
+        $invoice_date_f = date ( 'F d, Y', strtotime($invoice_date_s));
         $due_date_f = date ( 'F d, Y'); 
         
         // get the current date and time and format it
