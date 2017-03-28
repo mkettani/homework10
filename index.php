@@ -25,8 +25,7 @@ switch ($action) {
         $default_date->add($interval);
         $due_date_s = $default_date->format('n/j/Y');
         
-        echo "$invoice_date_s";
-        echo "$due_date_s";
+       
 
         $message = 'Enter two dates and click on the Submit button.';
         break;
